@@ -1,0 +1,116 @@
+.row{
+    display: flex;
+    height: 100%; 
+
+}
+.column{
+    float: left;
+}
+.left{
+    width: 30%;
+    background-image: url(https://media-public.canva.com/MABKNDIbc-Y/1/screen_2x.jpg);
+    height: 100%;
+}
+.right{
+    width: 70%;
+    background-color: rgb(247, 245, 243);
+
+}
+.block{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.photo{
+    
+    padding: 20px 20px 20px 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    
+}
+.name{
+    color: white;
+    padding: 0px;
+    height: 38px;
+}
+.position{
+    padding: 0px ;
+    color: white;
+}
+.about{
+
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+    
+}
+.title{
+    text-transform: uppercase;
+    height: 23px;
+    padding-bottom: 10px;
+}
+
+.about_description{
+    font-size: 2px;
+}
+.contact{
+    padding: 20px;
+}
+.contact_title{
+    color: white;
+    text-transform: uppercase;
+}
+.contact_description{
+    padding: 5px 0px 0px 0px;
+}
+
+.phone_icon{
+    color: white;
+    padding-left: 30px;
+    background-image: url(assets/icons/call.svg);
+    background-repeat: no-repeat;
+    
+}
+.specing{
+    padding-bottom: 5px;
+}
+.email_icon{
+    padding-left: 30px;
+    background-image: url(assets/icons/email.svg);
+    background-repeat: no-repeat;
+    color: white;
+}
+.in_icon{
+    padding-left: 30px;
+    background-image: url(assets/icons/linkedin.svg);
+    background-repeat: no-repeat;
+    
+    text-decoration: none;
+}
+.git_icon{
+    padding-left: 30px;
+    background-image: url(assets/icons/github.svg);
+    background-repeat: no-repeat;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.education{
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+.skills{
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+}
+ul{
+    list-style: none;
+}
+.education_content{
+    list-style: disc outside;
+}
